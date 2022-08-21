@@ -126,7 +126,7 @@ main {
   background: rgba(255, 255, 255, 0.2);
 }
 .bottom {
-  width: 350px;
+  width: 450px;
   display: flex;
   justify-content: space-between;
 }
