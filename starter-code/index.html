@@ -16,6 +16,8 @@
     <title>Frontend Mentor | Space tourism website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Oswald&display=swap"
       rel="stylesheet"
@@ -24,23 +26,38 @@
   <body>
     <header>
       <img src="./assets/shared/logo.svg" alt="" id="logo" />
+      <div class="line"></div>
       <ul>
-        <li>00<span class="light-colored"> Home</span></li>
-        <li>01<span class="light-colored"> Destination</span></li>
-        <li>02<span class="light-colored"> Crew</span></li>
-        <li>03<span class="light-colored"> Technology</span></li>
+        <li class="active">
+          <a href="./index.html"
+            >00<span class="light-colored home"> Home</span></a
+          >
+        </li>
+        <li>
+          <a href="./destination-titan.html"
+            >01<span class="light-colored destination"> Destination</span></a
+          >
+        </li>
+        <li>
+          <a href="">02<span class="light-colored crew"> Crew</span></a>
+        </li>
+        <li>
+          <a href="">03<span class="light-colored tech"> Technology</span></a>
+        </li>
       </ul>
     </header>
-    <section class="mid-text">
-      <p class="first-parag light-colored">So, you want to travel to</p>
-      <h1 class="space">Space</h1>
-
-      <p class="second-parag light-colored">
-        Let’s face it; if you want to go to space, you might as well genuinely
-        go to outer space and not hover kind of on the edge of it. Well sit
-        back, and relax because we’ll give you a truly out of this world
-        experience! Explore
-      </p>
-    </section>
+    <main>
+      <div class="mid-text">
+        <p class="first-parag light-colored">So, you want to travel to</p>
+        <h1 class="space">Space</h1>
+        <p class="second-parag light-colored">
+          Let’s face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we’ll give you a truly out of this world
+          experience! Explore
+        </p>
+      </div>
+      <div class="circle">Explore</div>
+    </main>
   </body>
 </html>
