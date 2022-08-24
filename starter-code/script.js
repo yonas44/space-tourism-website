@@ -56,6 +56,4 @@ function changeTabs(btn) {
       planet.src = "./assets/destination/image-titan.png";
     }
   }
-
-  //
 }
