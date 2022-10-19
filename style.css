@@ -45,7 +45,7 @@ header ul {
 
 header ul li {
   backdrop-filter: blur(10px);
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   list-style: none;
@@ -80,7 +80,7 @@ main {
 }
 
 .first-parag {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 25px;
   letter-spacing: 3px;
@@ -94,11 +94,13 @@ main {
 }
 .second-parag {
   margin-top: 30px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   width: 80%;
   letter-spacing: 0.5px;
   line-height: 30px;
 }
+
+/* circle */
 
 main .circle {
   text-transform: uppercase;
